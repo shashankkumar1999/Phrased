@@ -2,7 +2,7 @@
 
 > **Stop writing prompts. Start using them.**
 
-A sleek, dark-themed prompt template library for Claude, ChatGPT, Gemini, and Perplexity. **92 expert-crafted prompts** with fill-in-the-blank variables. Inject directly into any AI chat—no copy-paste busywork.
+A sleek, dark-themed prompt template library for Claude, Gemini, and Perplexity. **92 expert-crafted prompts** with fill-in-the-blank variables. Inject directly into any AI chat—no copy-paste busywork.
 
 **[Install from Chrome Web Store](#installation)** • **[See a Demo](#demo)** • **[Open an Issue](#support)**
 
@@ -64,7 +64,6 @@ Want to try it now? Load it locally:
 | Platform | Copy | Inject | Status |
 |----------|------|--------|--------|
 | **Claude** | ✅ | ✅ | Fully supported |
-| **ChatGPT** | ✅ | ✅ | Fully supported |
 | **Gemini** | ✅ | ✅ | Fully supported |
 | **Perplexity** | ✅ | ✅ | Fully supported |
 | **Any website** | ✅ | — | Copy-paste mode |
