@@ -1,0 +1,39 @@
+{
+  "name": "phrased",
+  "displayName": "Phrased — AI Prompt Templates",
+  "version": "1.0.0",
+  "description": "100 expert AI prompt templates with fill-in-the-blank variables.",
+  "author": "Phrased",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "fuse.js": "^7.0.0",
+    "plasmo": "^0.90.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.258",
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  },
+  "manifest": {
+    "name": "Phrased — AI Prompt Templates",
+    "description": "92 AI prompts for Claude, Gemini, Perplexity & more. Instant inject + copy. Zero data. Free.",
+    "version": "1.0.0",
+    "permissions": [
+      "clipboardWrite",
+      "activeTab"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
+}

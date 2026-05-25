@@ -1,0 +1,35 @@
+/* Scoped reset only — all positioning handled inline to avoid host-page CSS conflicts */
+#phrased-sidebar-root,
+#phrased-sidebar-root * {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+#phrased-sidebar-root input,
+#phrased-sidebar-root textarea,
+#phrased-sidebar-root button {
+  font-family: inherit;
+}
+
+/* Hide scrollbar on category pills row */
+#phrased-sidebar-root .pills-row::-webkit-scrollbar {
+  display: none;
+}
+#phrased-sidebar-root .pills-row {
+  scrollbar-width: none;
+}
+
+/* Custom scrollbar for prompt list */
+#phrased-sidebar-root .prompt-list::-webkit-scrollbar {
+  width: 4px;
+}
+#phrased-sidebar-root .prompt-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+#phrased-sidebar-root .prompt-list::-webkit-scrollbar-thumb {
+  background: #2a2a3e;
+  border-radius: 4px;
+}
+#phrased-sidebar-root .prompt-list::-webkit-scrollbar-thumb:hover {
+  background: #3a3a4e;
+}

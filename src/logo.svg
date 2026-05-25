@@ -1,0 +1,16 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for extension -->
+  <circle cx="64" cy="64" r="62" fill="#ff8c42" opacity="0.1"/>
+
+  <!-- Main speech bubble shape (prompt indicator) -->
+  <path d="M 28 20 L 100 20 Q 110 20 110 30 L 110 80 Q 110 90 100 90 L 50 90 L 35 105 Q 32 108 28 105 L 28 90 Q 18 90 18 80 L 18 30 Q 18 20 28 20 Z"
+        fill="none" stroke="#ff8c42" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Horizontal lines inside (representing text/prompts) -->
+  <line x1="38" y1="40" x2="100" y2="40" stroke="#ff8c42" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+  <line x1="38" y1="55" x2="90" y2="55" stroke="#ff8c42" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <line x1="38" y1="70" x2="85" y2="70" stroke="#ff8c42" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Accent dot (innovation/spark) -->
+  <circle cx="105" cy="32" r="3.5" fill="#ff8c42"/>
+</svg>

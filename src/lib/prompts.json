@@ -1,0 +1,831 @@
+[
+  {
+    "id": "tailor-resume-bullet",
+    "title": "Tailor resume bullet for a job description",
+    "category": "Career: Resume & Applications",
+    "description": "Customize a resume achievement to match job requirements.",
+    "body": "Help me tailor a resume bullet point for a job application.\n\nMy achievement: {{your_achievement}}\nJob description excerpt: {{job_requirements}}\nRole title: {{role_title}}\n\nRewrite the bullet point to:\n- Directly match the job description keywords\n- Highlight relevant impact with numbers if possible\n- Keep it under one line\n- Use strong action verbs\n- Focus on what matters to this specific role",
+    "variables": ["your_achievement", "job_requirements", "role_title"],
+    "tags": ["career", "resume", "job search", "application"]
+  },
+  {
+    "id": "cover-letter-role",
+    "title": "Cover letter for a specific role",
+    "category": "Career: Resume & Applications",
+    "description": "Write a compelling cover letter tailored to the job posting.",
+    "body": "Write a cover letter for a {{job_title}} position at {{company_name}}.\n\nMy background: {{your_background}}\nWhy I'm interested: {{interest_reason}}\nKey achievements: {{relevant_achievements}}\nWhat I can bring: {{value_proposition}}\n\nMake it:\n- Three paragraphs (opening hook, body, closing)\n- Personal and specific to the company\n- Show enthusiasm without being desperate\n- 250-350 words\n- End with clear next step",
+    "variables": ["job_title", "company_name", "your_background", "interest_reason", "relevant_achievements", "value_proposition"],
+    "tags": ["career", "cover letter", "job search", "application"]
+  },
+  {
+    "id": "professional-bio",
+    "title": "Professional bio",
+    "category": "Career: Resume & Applications",
+    "description": "Create a compelling professional biography for bios and profiles.",
+    "body": "Write a professional bio for my LinkedIn/portfolio/about page.\n\nMy role: {{current_role}}\nYears of experience: {{experience_years}}\nKey expertise: {{expertise_areas}}\nNotable achievements: {{achievements}}\nWhat I'm known for: {{reputation}}\n\nRequirements:\n- Second or third person\n- Under 150 words\n- Focus on impact, not just responsibilities\n- Include one personality touch\n- Make it memorable and authentic",
+    "variables": ["current_role", "experience_years", "expertise_areas", "achievements", "reputation"],
+    "tags": ["career", "bio", "personal branding", "linkedin"]
+  },
+  {
+    "id": "portfolio-project",
+    "title": "Portfolio project description",
+    "category": "Career: Resume & Applications",
+    "description": "Write a compelling description of a project for your portfolio.",
+    "body": "Help me write a portfolio project description.\n\nProject name: {{project_name}}\nWhat it does: {{project_description}}\nTechnologies used: {{tech_stack}}\nYour role: {{your_role}}\nKey results: {{results_metrics}}\n\nMake it:\n- Clear to non-technical readers\n- Show the problem it solved\n- Highlight your specific contribution\n- Include measurable results if possible\n- Add link to live demo or GitHub\n- 100-150 words",
+    "variables": ["project_name", "project_description", "tech_stack", "your_role", "results_metrics"],
+    "tags": ["career", "portfolio", "projects", "job search"]
+  },
+  {
+    "id": "behavioral-interview-star",
+    "title": "Behavioral interview answer using STAR",
+    "category": "Career: Interviews",
+    "description": "Structure a compelling behavioral interview answer using the STAR method.",
+    "body": "Help me structure a behavioral interview answer using STAR method.\n\nInterview question: {{interview_question}}\nSituation details: {{situation}}\nTask description: {{task}}\nAction you took: {{your_action}}\nResult/outcome: {{result}}\n\nStructure it as:\n- Situation (30 seconds): Set the context\n- Task (20 seconds): What was needed\n- Action (60 seconds): What you specifically did\n- Result (20 seconds): Quantified outcome\n\nTotal: 2-3 minutes, confident and specific",
+    "variables": ["interview_question", "situation", "task", "your_action", "result"],
+    "tags": ["career", "interview", "job search", "star method"]
+  },
+  {
+    "id": "interview-questions",
+    "title": "Questions to ask at the end of an interview",
+    "category": "Career: Interviews",
+    "description": "Generate thoughtful questions to ask interviewers that show genuine interest.",
+    "body": "Generate 5-7 thoughtful questions for the {{position_title}} interview at {{company_name}}.\n\nContext:\n- What I've learned about the role: {{role_details}}\n- What I've learned about the company: {{company_details}}\n- Areas of concern I have: {{concerns}}\n- What matters to me in a job: {{values}}\n\nMake questions that:\n- Show genuine interest and research\n- Help you make a better decision\n- Differentiate you from other candidates\n- Can't be answered by the job posting\n- Avoid salary/benefits (ask later)",
+    "variables": ["position_title", "company_name", "role_details", "company_details", "concerns", "values"],
+    "tags": ["career", "interview", "job search", "questions"]
+  },
+  {
+    "id": "employment-gap-explanation",
+    "title": "Explain an employment gap",
+    "category": "Career: Interviews",
+    "description": "Address employment gaps in interviews with honesty and confidence.",
+    "body": "Help me explain my employment gap in an interview.\n\nGap duration: {{gap_length}}\nWhat happened: {{what_happened}}\nWhat I did during the gap: {{activities_during_gap}}\nWhat I learned: {{lessons_learned}}\nHow I've moved forward: {{current_status}}\n\nMake the explanation:\n- Honest but concise (30-60 seconds)\n- Focus on what you learned or accomplished\n- Show it's in the past and you're ready to move forward\n- Confident and matter-of-fact, not defensive\n- Tie it to why this role is good fit",
+    "variables": ["gap_length", "what_happened", "activities_during_gap", "lessons_learned", "current_status"],
+    "tags": ["career", "interview", "job search", "honesty"]
+  },
+  {
+    "id": "asking-for-referral",
+    "title": "Asking for an internal referral",
+    "category": "Career: Job Search",
+    "description": "Ask someone you know for a referral to a position.",
+    "body": "Help me ask {{contact_name}} for an internal referral at {{company_name}}.\n\nRole I'm interested in: {{job_title}}\nOur connection history: {{how_you_know_them}}\nWhy I'm interested: {{why_interested}}\nWhy I'd be good: {{qualifications}}\n\nMake it:\n- Warm and genuine, not transactional\n- Keep it short (under 150 words)\n- Specific about the role\n- Make it easy for them to say yes\n- Offer to send resume or discuss\n- Respect their decision if they say no",
+    "variables": ["contact_name", "company_name", "job_title", "how_you_know_them", "why_interested", "qualifications"],
+    "tags": ["career", "job search", "networking", "referral"]
+  },
+  {
+    "id": "informational-interview",
+    "title": "Request an informational interview",
+    "category": "Career: Job Search",
+    "description": "Request a conversation with someone in your target role or company.",
+    "body": "Help me request an informational interview with {{contact_name}} at {{company_name}}.\n\nContext:\n- Their role/expertise: {{their_expertise}}\n- Why I'm interested: {{why_them}}\n- What I'd like to learn: {{questions_topics}}\n- Time commitment: {{proposed_length}}\n\nMake it:\n- Specific about what you want to learn\n- Respectful of their time (15-30 min)\n- Easy to say yes to\n- No hidden ask (not a job request)\n- Show you've done your research\n- Under 100 words",
+    "variables": ["contact_name", "company_name", "their_expertise", "why_them", "questions_topics", "proposed_length"],
+    "tags": ["career", "networking", "informational interview", "job search"]
+  },
+  {
+    "id": "salary-negotiation-email",
+    "title": "Negotiate a job offer via email",
+    "category": "Career: Job Search",
+    "description": "Professionally negotiate compensation and benefits in a job offer.",
+    "body": "Help me negotiate a job offer from {{company_name}} for {{job_title}}.\n\nCurrent offer: {{offered_salary}} + {{offered_benefits}}\nMarket research: {{market_rate}}\nYour requirements: {{requirements}}\nWhy you deserve more: {{justification}}\n\nMake the negotiation:\n- Grateful and professional\n- Based on market data, not personal need\n- Specific about what you want\n- Leave room for discussion\n- Open to non-salary benefits (flexibility, equity, etc.)\n- Maintain good relationship",
+    "variables": ["company_name", "job_title", "offered_salary", "offered_benefits", "market_rate", "requirements", "justification"],
+    "tags": ["career", "negotiation", "salary", "job offer"]
+  },
+  {
+    "id": "counter-lowball-offer",
+    "title": "Counter a lowball offer",
+    "category": "Career: Job Search",
+    "description": "Professionally counter an unacceptably low job offer.",
+    "body": "Help me counter a lowball job offer from {{company_name}}.\n\nThey offered: {{their_offer}}\nThe role: {{job_title}}\nMarket rate: {{market_rate}}\nYour experience: {{your_experience}}\nMinimum acceptable: {{minimum_salary}}\n\nStructure the counter as:\n1. Thank them for the offer\n2. Express genuine interest in the role\n3. Explain why your counter is justified (market data, experience, value)\n4. Propose a clear number\n5. Show flexibility on other benefits\n6. Keep the tone collaborative, not demanding",
+    "variables": ["company_name", "job_title", "their_offer", "market_rate", "your_experience", "minimum_salary"],
+    "tags": ["career", "negotiation", "salary", "job offer"]
+  },
+  {
+    "id": "salary-range-script",
+    "title": "Script for asking about salary range",
+    "category": "Career: Job Search",
+    "description": "Confidently ask about compensation during early conversations.",
+    "body": "Create a script for asking about salary range with {{interviewer_name}} at {{company_name}}.\n\nRole: {{job_title}}\nWhere in process: {{interview_stage}}\nYour research: {{market_research}}\nYour constraints: {{your_constraints}}\n\nMake the script:\n- Confident and matter-of-fact\n- Tie it to moving the conversation forward\n- Show you've done research\n- Ask for range, not specific number\n- Be ready to share your expectations too\n- Keep it under 2 minutes\n- Feel natural when spoken aloud",
+    "variables": ["interviewer_name", "company_name", "job_title", "interview_stage", "market_research", "your_constraints"],
+    "tags": ["career", "negotiation", "salary", "interview"]
+  },
+  {
+    "id": "introduce-new-role",
+    "title": "Introduce yourself in a new role",
+    "category": "Career: On the Job",
+    "description": "Send an intro message to your new team/department.",
+    "body": "Help me introduce myself in my new {{role_title}} role at {{company_name}}.\n\nMy background: {{background_summary}}\nPrevious experience: {{previous_roles}}\nWhat I'm excited about: {{enthusiasm}}\nHow I want to work: {{working_style}}\nWhat I need help with: {{early_support}}\n\nMake it:\n- Warm and approachable\n- Show enthusiasm for the role\n- Give context about who you are\n- Make it easy for people to help you\n- Under 200 words\n- Invite follow-up conversation",
+    "variables": ["role_title", "company_name", "background_summary", "previous_roles", "enthusiasm", "working_style", "early_support"],
+    "tags": ["career", "workplace", "new role", "communication"]
+  },
+  {
+    "id": "ask-for-feedback",
+    "title": "Ask for feedback on your work",
+    "category": "Career: On the Job",
+    "description": "Request constructive feedback from manager or colleague in a growth-oriented way.",
+    "body": "Help me ask {{feedback_giver}} for feedback on {{what_feedback_on}}.\n\nContext: {{situation_context}}\nWhat you did: {{what_you_did}}\nWhat you want to improve: {{improvement_areas}}\nTimeline: {{when_you_need_feedback}}\n\nMake the ask:\n- Show genuine openness to growth\n- Be specific about what you want feedback on\n- Acknowledge it might be critical and that's okay\n- Make it easy for them to give honest feedback\n- Show you'll act on it\n- Keep it to 100 words or less",
+    "variables": ["feedback_giver", "what_feedback_on", "situation_context", "what_you_did", "improvement_areas", "when_you_need_feedback"],
+    "tags": ["career", "feedback", "growth", "workplace"]
+  },
+  {
+    "id": "request-mentor",
+    "title": "Request a mentor",
+    "category": "Career: On the Job",
+    "description": "Respectfully ask someone to mentor you professionally.",
+    "body": "Help me request {{potential_mentor}} to be my mentor.\n\nWhy them: {{why_this_person}}\nWhat you admire: {{admiration_points}}\nWhat you want to learn: {{learning_goals}}\nProposed structure: {{meeting_frequency_time}}\nCommitment from you: {{what_you_offer}}\n\nMake the ask:\n- Specific about what you want to learn\n- Acknowledge their time is valuable\n- Propose a reasonable commitment (monthly, quarterly check-ins)\n- Show you'll come prepared\n- Make it mutually beneficial if possible\n- Be ready to accept a no\n- Under 150 words",
+    "variables": ["potential_mentor", "why_this_person", "admiration_points", "learning_goals", "meeting_frequency_time", "what_you_offer"],
+    "tags": ["career", "mentoring", "professional development", "growth"]
+  },
+  {
+    "id": "linkedin-career-win",
+    "title": "LinkedIn post about a career win",
+    "category": "Career: On the Job",
+    "description": "Share a professional achievement on LinkedIn in an authentic way.",
+    "body": "Help me write a LinkedIn post about {{achievement_type}} at {{company_name}}.\n\nThe achievement: {{what_happened}}\nWhy it mattered: {{impact_significance}}\nWhat you learned: {{lessons}}\nWho to thank: {{people_to_credit}}\nWhat's next: {{what_comes_next}}\n\nMake the post:\n- Humble but proud (not humble-bragging)\n- Share the journey, not just the result\n- Include what you learned\n- Thank the people who helped\n- End with an open question or CTA\n- 150-300 words\n- Include 1-2 relevant hashtags",
+    "variables": ["achievement_type", "company_name", "what_happened", "impact_significance", "lessons", "people_to_credit", "what_comes_next"],
+    "tags": ["career", "linkedin", "networking", "personal branding"]
+  },
+  {
+    "id": "resign-professionally",
+    "title": "Resign professionally",
+    "category": "Career: Transitions",
+    "description": "Write a resignation letter that maintains relationships and reputation.",
+    "body": "Help me write a resignation letter from {{company_name}}.\n\nPosition: {{job_title}}\nLast day: {{last_day}}\nReason (if sharing): {{reason_for_leaving}}\nWhat you're grateful for: {{what_you_learned}}\nHow you'll help with transition: {{transition_plan}}\n\nMake the letter:\n- Professional and gracious\n- Give proper notice (typically 2 weeks)\n- State clearly that you're resigning\n- Thank them for the opportunity\n- Offer to help with transition\n- Keep it under 200 words\n- Positive tone, no complaints\n- Submit in person or via email if required",
+    "variables": ["company_name", "job_title", "last_day", "reason_for_leaving", "what_you_learned", "transition_plan"],
+    "tags": ["career", "resignation", "professional", "transition"]
+  },
+  {
+    "id": "rejection-response",
+    "title": "Respond to a rejection professionally",
+    "category": "Career: Transitions",
+    "description": "Reply to a job rejection in a way that keeps the door open.",
+    "body": "Help me respond professionally to a job rejection from {{company_name}}.\n\nPosition: {{job_title}}\nWhy you're interested in staying connected: {{ongoing_interest}}\nWhat you learned: {{interview_insights}}\nNext steps for you: {{what_comes_next}}\n\nMake the response:\n- Thank them for the consideration\n- Show maturity and grace\n- Express genuine interest in future opportunities\n- Don't ask for feedback unless appropriate\n- Keep it brief (100 words or less)\n- Send within 1-2 days\n- Open the door for future roles",
+    "variables": ["company_name", "job_title", "ongoing_interest", "interview_insights", "what_comes_next"],
+    "tags": ["career", "rejection", "resilience", "networking"]
+  },
+  {
+    "id": "30-60-90-day-plan",
+    "title": "30-60-90 day plan for a new role",
+    "category": "Career: Transitions",
+    "description": "Create a structured plan for your first 90 days in a new position.",
+    "body": "Create a 30-60-90 day plan for my new {{job_title}} role at {{company_name}}.\n\nRole context: {{role_overview}}\nKey priorities: {{main_responsibilities}}\nStakeholders: {{important_people}}\nSuccess metrics: {{how_you'll_measure_success}}\n\nStructure it as:\n- 30 Days: Learn (people, processes, codebase/product)\n- 60 Days: Contribute (first real projects/wins)\n- 90 Days: Impact (measurable results and credibility)\n\nInclude:\n- Key meetings and learning activities\n- Early wins to build momentum\n- Metrics to track progress\n- Questions to ask and answer",
+    "variables": ["job_title", "company_name", "role_overview", "main_responsibilities", "important_people", "how_you'll_measure_success"],
+    "tags": ["career", "onboarding", "planning", "new role"]
+  },
+  {
+    "id": "ask-for-raise",
+    "title": "Asking for a raise or promotion",
+    "category": "Career: On the Job",
+    "description": "Request a raise or promotion with data-backed justification.",
+    "body": "Help me ask {{manager_name}} for a {{raise_or_promotion}} at {{company_name}}.\n\nCurrent role: {{current_role}}\nHow long in role: {{tenure}}\nKey accomplishments: {{achievements_metrics}}\nAdditional responsibilities: {{new_duties}}\nMarket rate: {{market_comparison}}\nWhat you're asking for: {{specific_request}}\n\nStructure the ask:\n1. Schedule a formal meeting\n2. Start with accomplishments and value added\n3. Show market data\n4. Be specific about what you want\n5. Explain why now is the right time\n6. Be ready to discuss\n7. Get timeline for decision\n\nBe confident and professional.",
+    "variables": ["manager_name", "raise_or_promotion", "company_name", "current_role", "tenure", "achievements_metrics", "new_duties", "market_comparison", "specific_request"],
+    "tags": ["career", "negotiation", "salary", "growth"]
+  },
+  {
+    "id": "cold-outreach-email",
+    "title": "Cold outreach email",
+    "category": "Workplace: Email Basics",
+    "description": "Write a concise, direct cold email that gets replies.",
+    "body": "Write a cold outreach email to a {{recipient_role}} at {{company}}.\n\nContext:\n- What I offer: {{your_offering}}\n- Their likely pain point: {{pain_point}}\n- What I want them to do: {{call_to_action}}\n\nRequirements:\n- Subject line under 8 words\n- Email body under 120 words\n- No buzzwords or filler phrases\n- End with one clear question, not a statement\n- Tone: direct and respectful, not salesy\n\nWrite the subject line first, then the email body.",
+    "variables": ["recipient_role", "company", "your_offering", "pain_point", "call_to_action"],
+    "tags": ["email", "outreach", "sales", "cold email", "communication"]
+  },
+  {
+    "id": "professional-feedback-email",
+    "title": "Professional feedback email",
+    "category": "Workplace: Email Basics",
+    "description": "Send constructive feedback that is specific, kind, and leads to action.",
+    "body": "Help me write a professional email to {{recipient_name}} about {{topic}}.\n\nMy feedback: {{your_feedback}}\nWhat I want to happen: {{desired_outcome}}\n\nMake it:\n- Constructive, not critical\n- Specific, not vague\n- Under 150 words\n- Ending with a clear next step\n- Tone: collaborative and respectful\n- Show you care about their growth",
+    "variables": ["recipient_name", "topic", "your_feedback", "desired_outcome"],
+    "tags": ["email", "feedback", "professional", "constructive"]
+  },
+  {
+    "id": "thank-you-email",
+    "title": "Thank someone for their help",
+    "category": "Workplace: Email Basics",
+    "description": "Express genuine gratitude in a professional way.",
+    "body": "Help me write a thank you email to {{recipient_name}}.\n\nWhat they did: {{what_they_helped_with}}\nHow it helped you: {{impact_on_you}}\nSpecific example: {{example_or_detail}}\nWhere you are now: {{current_status}}\n\nMake it:\n- Genuine and specific (not generic)\n- Under 100 words\n- Mention the specific thing they did\n- Show the impact it had\n- Keep tone warm and authentic\n- Optional: mention how you'll pay it forward",
+    "variables": ["recipient_name", "what_they_helped_with", "impact_on_you", "example_or_detail", "current_status"],
+    "tags": ["email", "gratitude", "professional", "relationship building"]
+  },
+  {
+    "id": "apology-email",
+    "title": "Apology email for a mistake",
+    "category": "Workplace: Email Basics",
+    "description": "Write a sincere apology that takes responsibility and commits to change.",
+    "body": "Help me write an apology email to {{recipient_name}} about {{what_happened}}.\n\nYour mistake: {{specific_mistake}}\nHow it affected them: {{impact}}\nWhat you'll do differently: {{how_you'll_fix_it}}\nTimeline for improvement: {{when_they'll_see_change}}\n\nMake the apology:\n- Take full responsibility (no excuses)\n- Be specific about what you did wrong\n- Show you understand the impact\n- Explain concrete steps to fix it\n- Give them a way to follow up\n- Keep it brief (under 150 words)\n- Send promptly, not after too much time",
+    "variables": ["recipient_name", "what_happened", "specific_mistake", "impact", "how_you'll_fix_it", "when_they'll_see_change"],
+    "tags": ["email", "apology", "professional", "accountability"]
+  },
+  {
+    "id": "saying-no-professionally",
+    "title": "Saying no professionally",
+    "category": "Workplace: Email Basics",
+    "description": "Decline a request while maintaining good relationships.",
+    "body": "Help me say no professionally to {{recipient_name}}'s request for {{what_they_asked}}.\n\nWhy you're declining: {{reason_for_declining}}\nAlternatives you can offer: {{alternatives}}\nHow to maintain relationship: {{way_forward}}\n\nMake the response:\n- Clear and direct (not wishy-washy)\n- Appreciative of the ask\n- Explain briefly why you can't (no long excuses)\n- Offer alternatives if possible\n- Leave door open for future\n- Keep it under 100 words\n- Suggest another way forward",
+    "variables": ["recipient_name", "what_they_asked", "reason_for_declining", "alternatives", "way_forward"],
+    "tags": ["email", "boundaries", "professional", "communication"]
+  },
+  {
+    "id": "meeting-follow-up",
+    "title": "Meeting follow-up with action items",
+    "category": "Workplace: Meetings & Updates",
+    "description": "Send a clear follow-up that captures decisions and keeps everyone accountable.",
+    "body": "Write a professional meeting follow-up email.\n\nMeeting topic: {{meeting_topic}}\nAttendees: {{attendees}}\nKey decisions made: {{decisions_made}}\nAction items and owners: {{next_steps}}\n\nFormat:\n- Brief thank you opener (one sentence)\n- Bullet list of decisions\n- Numbered action items with owner and deadline\n- Clear closing with next meeting or check-in\n- Under 300 words",
+    "variables": ["meeting_topic", "attendees", "decisions_made", "next_steps"],
+    "tags": ["email", "meetings", "action items", "communication"]
+  },
+  {
+    "id": "project-status-update",
+    "title": "Project status update",
+    "category": "Workplace: Meetings & Updates",
+    "description": "Send a clear status update that shows progress and addresses blockers.",
+    "body": "Write a project status update on {{project_name}}.\n\nProject owner: {{owner}}\nCurrent status: {{progress_percentage}}% complete\nWhat's been done: {{completed_this_week}}\nWhat's planned: {{next_week_plans}}\nBlockers or concerns: {{blockers}}\nWhat you need: {{help_needed}}\n\nFormat:\n- Green/Yellow/Red status indicator\n- Bullet points for completed items\n- Bullet points for next steps\n- Clear blockers section\n- Ask for help if needed\n- Keep it scannable (2-3 minutes to read)",
+    "variables": ["project_name", "owner", "progress_percentage", "completed_this_week", "next_week_plans", "blockers", "help_needed"],
+    "tags": ["email", "project management", "updates", "communication"]
+  },
+  {
+    "id": "difficult-conversation",
+    "title": "Difficult conversation script",
+    "category": "Workplace: Meetings & Updates",
+    "description": "Prepare for a challenging conversation with a structured script.",
+    "body": "Help me prepare for a difficult conversation with {{person_name}} about {{topic}}.\n\nWhat's the issue: {{the_problem}}\nHow it's affecting things: {{impact}}\nWhat you want to happen: {{desired_outcome}}\nWhere they might push back: {{potential_objections}}\nHow you'll stay calm: {{your_approach}}\n\nStructure:\n1. Opening: Be direct about what you want to discuss\n2. Context: Explain the situation factually\n3. Impact: Show how it's affecting work/team\n4. Their perspective: Ask for their view\n5. Solution: Propose next steps\n6. Closing: Confirm understanding\n\nPractice it out loud before the conversation.",
+    "variables": ["person_name", "topic", "the_problem", "impact", "desired_outcome", "potential_objections", "your_approach"],
+    "tags": ["communication", "difficult conversations", "workplace", "management"]
+  },
+  {
+    "id": "delegate-task",
+    "title": "Delegating a task clearly",
+    "category": "Workplace: Management",
+    "description": "Delegate work effectively with clear expectations and support.",
+    "body": "Help me delegate {{task_description}} to {{team_member_name}}.\n\nWhy you're delegating: {{reason}}\nExpectations: {{what_success_looks_like}}\nDeadline: {{due_date}}\nResources available: {{resources_support}}\nDecision authority: {{what_they_can_decide}}\n\nMake the delegation:\n- Be clear about the task and why it matters\n- Explain the \"why\" so they care\n- Be specific about success criteria\n- Give them authority to make decisions\n- Offer support without micromanaging\n- Check in at logical points\n- Empower them to problem-solve",
+    "variables": ["task_description", "team_member_name", "reason", "what_success_looks_like", "due_date", "resources_support", "what_they_can_decide"],
+    "tags": ["management", "delegation", "leadership", "communication"]
+  },
+  {
+    "id": "writing-performance-review",
+    "title": "Writing a performance review",
+    "category": "Workplace: Management",
+    "description": "Write a constructive performance review that inspires growth.",
+    "body": "Help me write a performance review for {{employee_name}}.\n\nRole: {{their_role}}\nReview period: {{time_period}}\nKey strengths: {{strengths_shown}}\nAccomplishments: {{achievements}}\nAreas to improve: {{growth_areas}}\nDevelopment plan: {{next_steps_for_growth}}\n\nStructure:\n1. Opening: Thank them for contributions\n2. Strengths: Be specific with examples\n3. Accomplishments: Quantify impact where possible\n4. Development areas: Frame as growth, not criticism\n5. Growth plan: Specific, actionable steps\n6. Support: How you'll help them succeed\n7. Closing: Positive and motivating\n\nUse a balanced, constructive tone throughout.",
+    "variables": ["employee_name", "their_role", "time_period", "strengths_shown", "achievements", "growth_areas", "next_steps_for_growth"],
+    "tags": ["management", "performance review", "feedback", "leadership"]
+  },
+  {
+    "id": "ask-for-testimonial",
+    "title": "Requesting a testimonial or review",
+    "category": "Workplace: Relationships",
+    "description": "Ask for a professional testimonial or recommendation.",
+    "body": "Help me ask {{contact_name}} for a testimonial/recommendation.\n\nWhere it's for: {{where_using_testimonial}}\nRelationship: {{how_you_worked_together}}\nWhat you'd like them to mention: {{key_points}}\nLength you need: {{testimonial_length}}\nWhen you need it: {{deadline}}\n\nMake the ask:\n- Appreciate their working relationship\n- Be specific about what you'd like\n- Make it easy (suggest key points they could mention)\n- Give them creative freedom\n- Provide deadline (at least 1 week)\n- Thank them warmly\n- Offer to do the same for them\n- Keep it to 100 words or less",
+    "variables": ["contact_name", "where_using_testimonial", "how_you_worked_together", "key_points", "testimonial_length", "deadline"],
+    "tags": ["professional relationships", "testimonial", "networking"]
+  },
+  {
+    "id": "policy-change-announcement",
+    "title": "Announcing a policy change",
+    "category": "Workplace: Communications",
+    "description": "Communicate a new or changed policy clearly and persuasively.",
+    "body": "Help me announce {{policy_type}} policy change to {{audience}}.\n\nThe change: {{what_is_changing}}\nWhy it's changing: {{reason_for_change}}\nWhen it takes effect: {{effective_date}}\nHow it affects them: {{impact_on_people}}\nFAQs: {{likely_questions}}\nWho to contact: {{point_of_contact}}\n\nMake the announcement:\n- Lead with why it's changing (not just the change)\n- Be clear and specific\n- Explain impact on them\n- Give adequate notice\n- Answer likely questions\n- Provide way to get help/clarification\n- Be empathetic if it's negative\n- Use multiple channels if important",
+    "variables": ["policy_type", "audience", "what_is_changing", "reason_for_change", "effective_date", "impact_on_people", "likely_questions", "point_of_contact"],
+    "tags": ["communication", "announcement", "policy", "leadership"]
+  },
+  {
+    "id": "out-of-office",
+    "title": "Out of office message",
+    "category": "Workplace: Communications",
+    "description": "Create an informative out-of-office auto-reply.",
+    "body": "Write an out of office message for {{purpose_of_absence}}.\n\nDates: {{start_date}} to {{end_date}}\nWho to contact instead: {{emergency_contact}}\nWhat they should do: {{instructions}}\nWhen you'll be back: {{return_date}}\nWhat you'll do upon return: {{immediate_action}}\n\nMake it:\n- Friendly and professional\n- Clear about dates\n- Give alternative contact if urgent\n- Keep it brief (3-4 sentences)\n- Include when you'll be back\n- Don't over-explain why you're gone\n- Optionally add a fun personal note\n- Set up filters to organize mail",
+    "variables": ["purpose_of_absence", "start_date", "end_date", "emergency_contact", "instructions", "return_date", "immediate_action"],
+    "tags": ["communication", "out of office", "email"]
+  },
+  {
+    "id": "asking-for-deadline-extension",
+    "title": "Negotiating a deadline extension",
+    "category": "Workplace: Negotiations",
+    "description": "Ask for more time on a project or deliverable professionally.",
+    "body": "Help me ask {{person_requesting}} for a deadline extension on {{project_name}}.\n\nOriginal deadline: {{original_deadline}}\nNew deadline needed: {{requested_deadline}}\nWhy more time is needed: {{reason}}\nWhat's been done: {{progress_so_far}}\nRisks of rushing: {{if_rushed_what_happens}}\nWhy this new timeline works: {{justification}}\n\nMake the request:\n- Be proactive (ask early, not at deadline)\n- Take responsibility if it's your issue\n- Be clear about the new deadline\n- Show you've made progress already\n- Explain the impact of rushing\n- Propose realistic new timeline\n- Offer solutions or compromises\n- Keep it under 150 words",
+    "variables": ["person_requesting", "project_name", "original_deadline", "requested_deadline", "reason", "progress_so_far", "if_rushed_what_happens", "justification"],
+    "tags": ["negotiation", "deadline", "communication", "professional"]
+  },
+  {
+    "id": "escalating-complaint",
+    "title": "Escalating a complaint professionally",
+    "category": "Workplace: Negotiations",
+    "description": "Escalate an issue when normal channels haven't resolved it.",
+    "body": "Help me escalate {{issue_type}} complaint about {{who_or_what}} to {{escalation_target}}.\n\nThe issue: {{detailed_issue}}\nHow long it's been ongoing: {{duration}}\nPrevious attempts to resolve: {{what_you_tried}}\nWhy it hasn't been resolved: {{why_stuck}}\nImpact of the issue: {{business_impact}}\nWhat resolution looks like: {{desired_outcome}}\n\nMake the escalation:\n- Lead with facts, not emotions\n- Show you tried to resolve it normally\n- Be specific about impact\n- Propose solution, not just problem\n- Keep tone professional and calm\n- Document everything\n- Follow proper escalation process\n- Keep copies of all communications",
+    "variables": ["issue_type", "who_or_what", "escalation_target", "detailed_issue", "duration", "what_you_tried", "why_stuck", "business_impact", "desired_outcome"],
+    "tags": ["communication", "conflict resolution", "escalation", "professional"]
+  },
+  {
+    "id": "introducing-two-people",
+    "title": "Introducing two people via email",
+    "category": "Workplace: Relationships",
+    "description": "Make a warm introduction that adds value for both parties.",
+    "body": "Help me introduce {{person_a}} to {{person_b}} via email.\n\nWhy they should connect: {{shared_interest_or_value}}\nWhat {{person_a}} does: {{person_a_background}}\nWhat {{person_b}} does: {{person_b_background}}\nHow they could help each other: {{potential_benefit}}\nNext step: {{what_you're_suggesting}}\n\nMake the introduction:\n- Start with why they should know each other\n- Give brief, relevant context for each\n- Be specific about how they could help each other\n- Make it easy for them to connect\n- Keep it short (under 150 words)\n- Let them take it from there\n- Optional: offer to facilitate first call",
+    "variables": ["person_a", "person_b", "shared_interest_or_value", "person_a_background", "person_b_background", "potential_benefit", "what_you're_suggesting"],
+    "tags": ["introduction", "networking", "relationship building", "communication"]
+  },
+  {
+    "id": "following-up-no-response",
+    "title": "Following up after no response",
+    "category": "Workplace: Email Basics",
+    "description": "Send a polite but persistent follow-up without being annoying.",
+    "body": "Help me follow up on {{original_request}} to {{recipient_name}}.\n\nWhen you first asked: {{original_date}}\nWhat you asked for: {{original_request_details}}\nWhy it matters: {{importance}}\nHow much longer you can wait: {{deadline}}\nWhat you need from them: {{specific_ask}}\n\nMake the follow-up:\n- Assume they missed it (don't accuse)\n- Resend key details or link\n- Make it easier for them to respond\n- Add slight urgency if appropriate\n- Keep it brief and friendly\n- Third follow-up: escalate or move on\n- Space follow-ups at least 3-5 days apart\n- Try different channels if appropriate",
+    "variables": ["original_request", "recipient_name", "original_date", "original_request_details", "importance", "deadline", "specific_ask"],
+    "tags": ["email", "follow-up", "communication", "persistence"]
+  },
+  {
+    "id": "debug-error",
+    "title": "Debug this error message",
+    "category": "Technical: Code Help",
+    "description": "Get help understanding and fixing an error.",
+    "body": "Help me debug this error in {{language}} code.\n\nError message: {{error_text}}\nWhen it happens: {{when_error_occurs}}\nWhat I was doing: {{context_of_action}}\nCode snippet: {{relevant_code}}\nWhat I've already tried: {{attempts_so_far}}\nSystem/environment: {{environment_details}}\n\nProvide:\n1. What the error means in plain English\n2. Most common causes\n3. Step-by-step debugging process\n4. Code fix if applicable\n5. How to prevent this in future\n6. Resources for understanding the underlying issue",
+    "variables": ["language", "error_text", "when_error_occurs", "context_of_action", "relevant_code", "attempts_so_far", "environment_details"],
+    "tags": ["debugging", "coding", "technical", "error handling"]
+  },
+  {
+    "id": "code-review-feedback",
+    "title": "Code review feedback",
+    "category": "Technical: Code Help",
+    "description": "Provide constructive code review comments.",
+    "body": "Help me write code review feedback for {{reviewer_context}}.\n\nWhat I'm reviewing: {{code_type}}\nKey issue: {{main_feedback}}\nSecondary issues: {{other_observations}}\nPositive aspects: {{what_they_did_well}}\nSuggested approach: {{how_to_improve}}\nLevel of urgency: {{must_fix_vs_nice_to_have}}\n\nMake the feedback:\n- Start with what they did well\n- Be specific, not vague\n- Explain why the change matters\n- Provide solution or direction\n- Be respectful and collaborative\n- Use \"we\" language, not \"you\"\n- Focus on code, not coder\n- Be actionable and helpful",
+    "variables": ["reviewer_context", "code_type", "main_feedback", "other_observations", "what_they_did_well", "how_to_improve", "must_fix_vs_nice_to_have"],
+    "tags": ["code review", "feedback", "collaboration", "technical"]
+  },
+  {
+    "id": "explain-code-nontechnical",
+    "title": "Explain code to a non-technical person",
+    "category": "Technical: Learning",
+    "description": "Break down technical concepts in plain language.",
+    "body": "Help me explain {{technical_concept}} to {{audience}} in simple terms.\n\nWhat it does: {{what_it_accomplishes}}\nWhy it matters: {{business_impact}}\nWho/what it affects: {{scope}}\nAnalogy or comparison: {{good_analogy}}\n\nMake the explanation:\n- No jargon or define terms used\n- Use analogies and real-world examples\n- Focus on \"what\" and \"why\", not \"how\"\n- Keep it under 3 minutes to read\n- Use short sentences\n- Add a helpful analogy\n- Ask if they have questions\n- Be genuinely helpful, not condescending",
+    "variables": ["technical_concept", "audience", "what_it_accomplishes", "business_impact", "scope", "good_analogy"],
+    "tags": ["communication", "technical writing", "explanation", "teaching"]
+  },
+  {
+    "id": "unit-tests",
+    "title": "Write unit tests",
+    "category": "Technical: Code Writing",
+    "description": "Generate unit tests for a function or module.",
+    "body": "Help me write unit tests for {{function_name}} in {{language}}.\n\nWhat the function does: {{function_purpose}}\nInputs: {{input_types_and_examples}}\nExpected outputs: {{output_examples}}\nEdge cases: {{boundary_conditions}}\nDependencies: {{external_calls_or_dependencies}}\nTest framework: {{testing_framework_used}}\n\nProvide:\n1. Test cases for happy path\n2. Edge cases and boundary conditions\n3. Error handling tests\n4. Mock external dependencies if needed\n5. Comments explaining each test\n6. Assertion messages that are clear\n7. Proper test structure and naming",
+    "variables": ["function_name", "language", "function_purpose", "input_types_and_examples", "output_examples", "boundary_conditions", "external_calls_or_dependencies", "testing_framework_used"],
+    "tags": ["testing", "code", "quality assurance", "technical"]
+  },
+  {
+    "id": "refactor-readability",
+    "title": "Refactor code for readability",
+    "category": "Technical: Code Help",
+    "description": "Improve code clarity and maintainability.",
+    "body": "Help me refactor {{code_type}} code for better readability.\n\nCurrent code: {{code_snippet}}\nWhat it does: {{functionality}}\nMain readability issues: {{pain_points}}\nConstraints: {{any_limitations}}\nTarget audience: {{who_will_read_this}}\n\nProvide:\n1. Refactored version of the code\n2. Explanation of each change\n3. Variable/function naming improvements\n4. How it improves readability\n5. Any potential performance implications\n6. Best practices applied\n7. Alternative approaches if applicable",
+    "variables": ["code_type", "code_snippet", "functionality", "pain_points", "any_limitations", "who_will_read_this"],
+    "tags": ["refactoring", "code quality", "best practices", "technical"]
+  },
+  {
+    "id": "sql-query",
+    "title": "Write a SQL query",
+    "category": "Technical: Code Writing",
+    "description": "Generate a SQL query to solve a database problem.",
+    "body": "Help me write a SQL query to {{query_purpose}}.\n\nDatabase: {{database_type}}\nTables involved: {{table_names}}\nWhat I need: {{desired_results}}\nConditions: {{where_clause_logic}}\nJoins needed: {{table_relationships}}\nData sample: {{example_data_if_helpful}}\n\nProvide:\n1. Working SQL query\n2. Explanation of what it does\n3. Any indexes that would help\n4. Alternative approaches if there are options\n5. Performance notes if relevant\n6. Cautionary notes about the data or query",
+    "variables": ["query_purpose", "database_type", "table_names", "desired_results", "where_clause_logic", "table_relationships", "example_data_if_helpful"],
+    "tags": ["sql", "database", "query", "technical"]
+  },
+  {
+    "id": "script-bash-python",
+    "title": "Write a bash or Python script",
+    "category": "Technical: Code Writing",
+    "description": "Generate an automated script to solve a problem.",
+    "body": "Help me write a {{language}} script to {{script_purpose}}.\n\nWhat it should do: {{detailed_requirements}}\nInputs: {{input_parameters}}\nOutputs: {{output_format}}\nScenarios to handle: {{edge_cases_and_errors}}\nEnvironment: {{platform_and_requirements}}\nFrequency of use: {{one_time_vs_recurring}}\n\nProvide:\n1. Complete working script\n2. Comments explaining key sections\n3. Error handling\n4. Usage instructions\n5. Any required permissions\n6. How to schedule/automate if needed\n7. Safety notes (backup, testing first, etc.)",
+    "variables": ["language", "script_purpose", "detailed_requirements", "input_parameters", "output_format", "edge_cases_and_errors", "platform_and_requirements", "one_time_vs_recurring"],
+    "tags": ["scripting", "automation", "coding", "technical"]
+  },
+  {
+    "id": "optimize-performance",
+    "title": "Optimize code for performance",
+    "category": "Technical: Code Help",
+    "description": "Improve code speed and efficiency.",
+    "body": "Help me optimize {{code_type}} code for performance.\n\nCurrent code: {{code_snippet}}\nWhat it does: {{functionality}}\nCurrent performance: {{current_metrics}}\nPerformance goal: {{target_metrics}}\nConstraints: {{limitations}}\nBottom-up profile data: {{profiling_results_if_available}}\n\nProvide:\n1. Bottleneck analysis\n2. Optimization approaches (ranked by impact)\n3. Refactored code\n4. Performance improvement estimates\n5. Trade-offs (readability, complexity, maintainability)\n6. Testing to verify improvements\n7. When to optimize vs. when it's premature",
+    "variables": ["code_type", "code_snippet", "functionality", "current_metrics", "target_metrics", "limitations", "profiling_results_if_available"],
+    "tags": ["performance", "optimization", "technical", "code quality"]
+  },
+  {
+    "id": "api-documentation",
+    "title": "Write API documentation",
+    "category": "Technical: Code Writing",
+    "description": "Create clear documentation for an API endpoint.",
+    "body": "Help me write documentation for {{api_endpoint}}.\n\nEndpoint: {{endpoint_path}}\nMethod: {{http_method}}\nPurpose: {{what_it_does}}\nAuth required: {{authentication_type}}\nInputs: {{request_parameters_and_body}}\nOutputs: {{response_structure}}\nErrors: {{possible_error_codes}}\nExamples: {{usage_example}}\n\nInclude:\n1. Description of what the endpoint does\n2. Authentication/permissions required\n3. Request parameters (with types and descriptions)\n4. Request body example\n5. Response example\n6. Possible error codes and messages\n7. Rate limiting if applicable\n8. Usage example with curl or code\n9. Related endpoints",
+    "variables": ["api_endpoint", "endpoint_path", "http_method", "what_it_does", "authentication_type", "request_parameters_and_body", "response_structure", "possible_error_codes", "usage_example"],
+    "tags": ["documentation", "api", "technical writing", "coding"]
+  },
+  {
+    "id": "security-code-review",
+    "title": "Security review of code",
+    "category": "Technical: Code Help",
+    "description": "Identify and fix security vulnerabilities.",
+    "body": "Help me review {{code_type}} code for security issues.\n\nCode snippet: {{code_to_review}}\nWhat it does: {{functionality}}\nWhat data it handles: {{data_types_and_sensitivity}}\nWho can access it: {{access_control}}\nThreats to consider: {{threat_model}}\nCompliance requirements: {{regulatory_needs}}\n\nProvide:\n1. Identified security vulnerabilities (OWASP top 10)\n2. Severity of each issue\n3. Specific fix for each vulnerability\n4. Code example of secure implementation\n5. Testing approach to verify the fix\n6. Prevention strategies\n7. Security best practices for this context",
+    "variables": ["code_type", "code_to_review", "functionality", "data_types_and_sensitivity", "access_control", "threat_model", "regulatory_needs"],
+    "tags": ["security", "code review", "vulnerability", "technical"]
+  },
+  {
+    "id": "regex-pattern",
+    "title": "Write a regex pattern",
+    "category": "Technical: Code Writing",
+    "description": "Create a regular expression for pattern matching.",
+    "body": "Help me write a regex pattern to {{pattern_purpose}}.\n\nWhat to match: {{matching_examples}}\nWhat NOT to match: {{non_matching_examples}}\nLanguage/flavor: {{regex_flavor}}\nPerformance requirements: {{speed_requirements}}\nUse case: {{context_of_use}}\n\nProvide:\n1. Working regex pattern\n2. Explanation of what each part does\n3. Test cases (matching and non-matching)\n4. Common mistakes with this pattern\n5. Performance considerations\n6. Alternative approaches if applicable\n7. How to test and debug the regex",
+    "variables": ["pattern_purpose", "matching_examples", "non_matching_examples", "regex_flavor", "speed_requirements", "context_of_use"],
+    "tags": ["regex", "pattern matching", "technical", "coding"]
+  },
+  {
+    "id": "technical-concept",
+    "title": "Explain a technical concept simply",
+    "category": "Technical: Learning",
+    "description": "Break down a complex technical topic.",
+    "body": "Help me understand {{technical_topic}}.\n\nWhat I want to learn: {{learning_goal}}\nWhat I already know: {{existing_knowledge}}\nWhy it matters: {{use_case}}\nLevel of detail: {{depth_needed}}\n\nProvide:\n1. Simple explanation without jargon\n2. Real-world analogy\n3. How it works (oversimplified)\n4. Common misconceptions\n5. When/why you'd use it\n6. Practical example\n7. Resources to go deeper",
+    "variables": ["technical_topic", "learning_goal", "existing_knowledge", "use_case", "depth_needed"],
+    "tags": ["learning", "explanation", "technical", "education"]
+  },
+  {
+    "id": "git-commit-message",
+    "title": "Write a git commit message",
+    "category": "Technical: Code Writing",
+    "description": "Craft a clear, useful commit message.",
+    "body": "Help me write a git commit message for {{change_type}}.\n\nWhat changed: {{what_was_modified}}\nWhy it changed: {{reason_for_change}}\nImpact: {{what_it_affects}}\nIssue number: {{related_issue}}\nBreaking changes: {{any_breaking_changes}}\n\nStructure:\n1. Subject line (under 50 chars): {{verb}} {{what}}\n2. Blank line\n3. Detailed body (if needed):\n   - Why this change was needed\n   - How it works\n   - Any side effects\n\nGuidelines:\n- Use imperative mood (\"add\" not \"added\")\n- Capitalize subject line\n- No period at end of subject\n- Wrap at 72 characters\n- Reference issues/PRs if applicable",
+    "variables": ["change_type", "what_was_modified", "reason_for_change", "what_it_affects", "related_issue", "any_breaking_changes"],
+    "tags": ["git", "version control", "documentation", "best practices"]
+  },
+  {
+    "id": "database-schema",
+    "title": "Database schema design",
+    "category": "Technical: Architecture",
+    "description": "Design a database schema for your data model.",
+    "body": "Help me design a database schema for {{project_name}}.\n\nData to store: {{entities_and_attributes}}\nRelationships: {{how_data_relates}}\nScale: {{expected_volume}}\nQuery patterns: {{common_queries}}\nPerformance needs: {{latency_requirements}}\nDatabase type: {{sql_vs_nosql}}\n\nProvide:\n1. Entity relationship diagram (text/ASCII)\n2. Table definitions with data types\n3. Primary and foreign keys\n4. Indexes for performance\n5. Normalization approach and justification\n6. Scalability considerations\n7. Example queries to verify design",
+    "variables": ["project_name", "entities_and_attributes", "how_data_relates", "expected_volume", "common_queries", "latency_requirements", "sql_vs_nosql"],
+    "tags": ["database", "architecture", "schema", "technical design"]
+  },
+  {
+    "id": "system-architecture",
+    "title": "Explain a system architecture decision",
+    "category": "Technical: Architecture",
+    "description": "Justify architectural choices and patterns.",
+    "body": "Help me document {{architecture_decision}}.\n\nContext: {{system_context}}\nProblem being solved: {{problem_statement}}\nAlternative approaches: {{other_options}}\nChosen approach: {{decision}}\nTrade-offs: {{pros_and_cons}}\nConstraints: {{limitations}}\n\nDocument:\n1. Summary of the decision\n2. Problem statement and context\n3. Alternative options considered (with pros/cons)\n4. Chosen solution and why\n5. Implementation approach\n6. Risks and mitigations\n7. Future considerations\n8. How to evaluate if it's working",
+    "variables": ["architecture_decision", "system_context", "problem_statement", "other_options", "decision", "pros_and_cons", "limitations"],
+    "tags": ["architecture", "design", "technical", "system design"]
+  },
+  {
+    "id": "error-handling",
+    "title": "Write error handling for a function",
+    "category": "Technical: Code Writing",
+    "description": "Add comprehensive error handling to code.",
+    "body": "Help me add error handling to {{function_name}}.\n\nWhat the function does: {{functionality}}\nInputs and types: {{input_types}}\nPossible errors: {{error_scenarios}}\nHow errors are propagated: {{error_handling_strategy}}\nLogging needs: {{logging_requirements}}\n\nProvide:\n1. Input validation\n2. Error cases and handling for each\n3. Try/catch blocks (if applicable)\n4. Meaningful error messages\n5. Logging statements\n6. Recovery strategies where applicable\n7. Tests for error cases\n8. Documentation of possible exceptions",
+    "variables": ["function_name", "functionality", "input_types", "error_scenarios", "error_handling_strategy", "logging_requirements"],
+    "tags": ["error handling", "code quality", "testing", "technical"]
+  },
+  {
+    "id": "api-integration",
+    "title": "Plan an API integration",
+    "category": "Technical: Architecture",
+    "description": "Design the integration of an external API.",
+    "body": "Help me plan the integration of {{api_name}} into {{project_name}}.\n\nAPI purpose: {{what_api_does}}\nUse cases: {{how_youll_use_it}}\nAuthentication: {{auth_method}}\nRate limits: {{limits_and_constraints}}\nError handling: {{error_scenarios}}\nData flow: {{data_in_and_out}}\n\nProvide:\n1. Integration architecture\n2. API wrapper/client design\n3. Authentication approach\n4. Rate limiting/caching strategy\n5. Error handling and retries\n6. Data transformation/mapping\n7. Testing strategy\n8. Monitoring and logging\n9. Fallback/degradation strategy",
+    "variables": ["api_name", "project_name", "what_api_does", "how_youll_use_it", "auth_method", "limits_and_constraints", "error_scenarios", "data_in_and_out"],
+    "tags": ["api", "integration", "architecture", "technical"]
+  },
+  {
+    "id": "onboarding-walkthrough",
+    "title": "Code walkthrough for onboarding",
+    "category": "Technical: Learning",
+    "description": "Guide a new team member through the codebase.",
+    "body": "Help me create a code walkthrough for {{new_person_role}}.\n\nCodebase: {{project_description}}\nTech stack: {{technologies_used}}\nKey files: {{important_files}}\nCommon tasks: {{typical_work}}\nAssumptions about knowledge: {{what_they_should_know}}\n\nStructure:\n1. Project overview and purpose\n2. Folder structure and organization\n3. Key files and what they do\n4. How data flows through the system\n5. Common development tasks (with code examples)\n6. Testing approach\n7. Deployment process\n8. Where to get help\n9. Quick-start for first contribution",
+    "variables": ["new_person_role", "project_description", "technologies_used", "important_files", "typical_work", "what_they_should_know"],
+    "tags": ["onboarding", "documentation", "teaching", "technical"]
+  },
+  {
+    "id": "summarize-document",
+    "title": "Summarize a document for a specific audience",
+    "category": "Analysis: Business",
+    "description": "Create a tailored summary for different audiences.",
+    "body": "Help me summarize {{document_type}} for {{target_audience}}.\n\nDocument: {{document_content_or_link}}\nAudience: {{who_will_read_it}}\nFocus areas: {{what_they_care_about}}\nTone: {{desired_tone}}\nLength: {{summary_length}}\n\nProvide:\n1. Executive summary (2-3 sentences)\n2. Key points (3-5 bullet points)\n3. Relevance to audience\n4. Recommended actions\n5. Supporting details if needed\n\nAdjust:\n- Technical depth for audience\n- Focus on relevant sections\n- Use their language and priorities",
+    "variables": ["document_type", "target_audience", "document_content_or_link", "who_will_read_it", "what_they_care_about", "desired_tone", "summary_length"],
+    "tags": ["summary", "communication", "analysis", "writing"]
+  },
+  {
+    "id": "compare-options",
+    "title": "Compare two options with a framework",
+    "category": "Analysis: Decision Making",
+    "description": "Evaluate options against criteria using a structured framework.",
+    "body": "Help me compare {{option_a}} vs {{option_b}}.\n\nDecision context: {{what_youre_deciding}}\nConstraints: {{limitations_or_requirements}}\nImportant factors: {{decision_criteria}}\nRisk tolerance: {{risk_appetite}}\nTime horizon: {{urgency}}\n\nProvide:\n1. Decision framework (criteria and weights)\n2. Scorecard comparing each option\n3. Pros and cons for each\n4. Risk analysis\n5. Recommendation with reasoning\n6. What could change the decision\n7. How to validate the choice\n8. Implementation approach for chosen option",
+    "variables": ["option_a", "option_b", "what_youre_deciding", "limitations_or_requirements", "decision_criteria", "risk_appetite", "urgency"],
+    "tags": ["decision making", "analysis", "framework", "business"]
+  },
+  {
+    "id": "pros-cons-breakdown",
+    "title": "Pros and cons breakdown",
+    "category": "Analysis: Decision Making",
+    "description": "Create a balanced list of advantages and disadvantages.",
+    "body": "Help me create a pros and cons breakdown for {{topic}}.\n\nContext: {{situation_or_proposal}}\nStakeholders: {{who_is_affected}}\nTime frame: {{relevant_timeframe}}\nDecision being made: {{what_decision}}\n\nProvide:\n1. Pros (with impact/importance rating)\n2. Cons (with impact/importance rating)\n3. Neutral considerations\n4. Long-term implications\n5. Short-term impacts\n6. Risk factors\n7. Weighted analysis\n8. Recommendation based on analysis",
+    "variables": ["topic", "situation_or_proposal", "who_is_affected", "relevant_timeframe", "what_decision"],
+    "tags": ["analysis", "decision making", "pros and cons", "business"]
+  },
+  {
+    "id": "first-principles",
+    "title": "First principles breakdown",
+    "category": "Analysis: Problem Solving",
+    "description": "Deconstruct a complex problem to fundamentals.",
+    "body": "Help me break down {{problem_or_topic}} using first principles.\n\nWhat I know: {{existing_knowledge}}\nWhat I want to understand: {{learning_goal}}\nAssumptions: {{current_beliefs}}\n\nProvide:\n1. Core principles involved\n2. Fundamental truths (challenge assumptions)\n3. How the basics work\n4. How they combine to create the system\n5. Analogies to similar systems\n6. What's unique about this case\n7. Implications of the fundamental understanding\n8. Application to the problem",
+    "variables": ["problem_or_topic", "existing_knowledge", "learning_goal", "current_beliefs"],
+    "tags": ["analysis", "problem solving", "learning", "critical thinking"]
+  },
+  {
+    "id": "weaknesses-argument",
+    "title": "Find weaknesses in an argument",
+    "category": "Analysis: Critical Thinking",
+    "description": "Identify logical fallacies and unsupported claims.",
+    "body": "Help me find weaknesses in this argument.\n\nThe argument: {{argument_to_analyze}}\nWho's making it: {{source}}\nContext: {{situational_context}}\nStakeholder interest: {{who_benefits}}\n\nProvide:\n1. Logical fallacies present\n2. Unsupported claims\n3. Missing evidence\n4. Alternative explanations\n5. Assumptions being made\n6. What would strengthen the argument\n7. Counterarguments\n8. How credible is this argument overall",
+    "variables": ["argument_to_analyze", "source", "situational_context", "who_benefits"],
+    "tags": ["critical thinking", "analysis", "logic", "business"]
+  },
+  {
+    "id": "action-items-extraction",
+    "title": "Extract action items from meeting notes",
+    "category": "Analysis: Organization",
+    "description": "Organize meeting notes into clear action items.",
+    "body": "Help me extract action items from these meeting notes.\n\nMeeting: {{meeting_name}}\nDate: {{meeting_date}}\nAttendees: {{who_attended}}\nNotes: {{meeting_notes_or_transcript}}\n\nProvide:\n1. Organized action items with:\n   - What needs to be done\n   - Who's responsible\n   - When it's due\n   - Priority level\n2. Decisions made\n3. Key discussion points\n4. Follow-up items\n5. Risks or concerns raised\n6. Next meeting agenda items",
+    "variables": ["meeting_name", "meeting_date", "who_attended", "meeting_notes_or_transcript"],
+    "tags": ["organization", "meetings", "action items", "productivity"]
+  },
+  {
+    "id": "business-idea-pressure-test",
+    "title": "Pressure test a business idea",
+    "category": "Analysis: Strategic",
+    "description": "Critically evaluate a business concept.",
+    "body": "Help me pressure test {{business_idea}}.\n\nThe idea: {{idea_description}}\nTarget market: {{target_customer}}\nValue proposition: {{how_it_creates_value}}\nRevenue model: {{how_it_makes_money}}\nCompetition: {{competitive_landscape}}\nYour advantages: {{competitive_advantages}}\n\nTest with:\n1. Market viability questions\n2. Customer demand validation\n3. Unit economics\n4. Competitive analysis\n5. Execution risks\n6. Scalability challenges\n7. Critical assumptions\n8. Go/no-go recommendation\n9. What needs to be true for this to work",
+    "variables": ["business_idea", "idea_description", "target_customer", "how_it_creates_value", "how_it_makes_money", "competitive_landscape", "competitive_advantages"],
+    "tags": ["business", "strategy", "analysis", "entrepreneurship"]
+  },
+  {
+    "id": "identify-risks",
+    "title": "Identify risks in a plan",
+    "category": "Analysis: Risk Management",
+    "description": "Find potential problems and mitigation strategies.",
+    "body": "Help me identify risks in {{plan_or_project}}.\n\nThe plan: {{detailed_plan_description}}\nTimeline: {{project_timeline}}\nResources: {{budget_and_team}}\nDependencies: {{external_dependencies}}\nStakeholders: {{who_is_affected}}\n\nProvide:\n1. Risk identification (technical, operational, market, financial)\n2. For each risk:\n   - Likelihood (high/med/low)\n   - Impact if it happens\n   - Mitigation strategy\n   - Contingency plan\n3. Top 3-5 critical risks\n4. Risk monitoring approach\n5. Who owns each risk",
+    "variables": ["plan_or_project", "detailed_plan_description", "project_timeline", "budget_and_team", "external_dependencies", "who_is_affected"],
+    "tags": ["risk management", "planning", "strategy", "business"]
+  },
+  {
+    "id": "swot-analysis",
+    "title": "SWOT analysis",
+    "category": "Analysis: Strategic",
+    "description": "Analyze strengths, weaknesses, opportunities, threats.",
+    "body": "Create a SWOT analysis for {{subject_of_analysis}}.\n\nContext: {{current_situation}}\nTime frame: {{analysis_period}}\nComparators: {{what_youre_comparing_against}}\nStakeholders: {{who_is_affected}}\n\nProvide:\n1. Strengths (internal, controllable)\n2. Weaknesses (internal, controllable)\n3. Opportunities (external, could exploit)\n4. Threats (external, beyond control)\n5. Strategic implications\n6. Priority action items\n7. Resource allocation recommendations\n8. How to leverage strengths against threats",
+    "variables": ["subject_of_analysis", "current_situation", "analysis_period", "what_youre_comparing_against", "who_is_affected"],
+    "tags": ["strategy", "analysis", "planning", "business"]
+  },
+  {
+    "id": "root-cause-analysis",
+    "title": "Root cause analysis",
+    "category": "Analysis: Problem Solving",
+    "description": "Find the underlying cause of a problem.",
+    "body": "Help me find the root cause of {{problem}}.\n\nWhat happened: {{problem_statement}}\nWhen it started: {{timeline}}\nWho/what is affected: {{scope}}\nSymptoms: {{observable_symptoms}}\nWhat has been tried: {{attempted_solutions}}\n\nUse the \"5 Whys\" to:\n1. Define the problem clearly\n2. Ask why (level 1)\n3. Ask why about the answer (level 2)\n4. Continue until you find the root cause\n5. Verify the root cause\n6. Develop prevention strategies\n7. Create action plan\n\nProvide:\n- Symptom vs. root cause\n- Unlikely causes to rule out\n- Most probable root cause\n- Prevention for future",
+    "variables": ["problem", "problem_statement", "timeline", "scope", "observable_symptoms", "attempted_solutions"],
+    "tags": ["problem solving", "analysis", "root cause", "process improvement"]
+  },
+  {
+    "id": "second-order-effects",
+    "title": "Predict second-order effects",
+    "category": "Analysis: Strategic",
+    "description": "Think through indirect consequences of actions.",
+    "body": "Help me predict second and third-order effects of {{action_or_change}}.\n\nThe change: {{what_is_changing}}\nDirect impact: {{immediate_effect}}\nTimeframe: {{over_what_period}}\nContext: {{relevant_context}}\nStakeholders: {{who_is_affected}}\n\nAnalyze:\n1. First-order effects (direct, immediate)\n2. Second-order effects (indirect, medium-term)\n3. Third-order effects (systemic, long-term)\n4. Unintended consequences\n5. Feedback loops created\n6. Winners and losers\n7. Adaptation by affected parties\n8. Equilibrium reached\n\nProvide: timeline and likelihood for each effect",
+    "variables": ["action_or_change", "what_is_changing", "immediate_effect", "over_what_period", "relevant_context", "who_is_affected"],
+    "tags": ["strategic thinking", "analysis", "long-term planning", "systems thinking"]
+  },
+  {
+    "id": "devils-advocate",
+    "title": "Devil's advocate on a decision",
+    "category": "Analysis: Critical Thinking",
+    "description": "Challenge a decision to test its strength.",
+    "body": "Help me play devil's advocate on {{decision}}.\n\nThe decision: {{what_decision_was_made}}\nReasoning: {{why_this_decision}}\nAlternatives considered: {{other_options}}\nWho decided: {{decision_makers}}\n\nProvide:\n1. Strong counterarguments\n2. Hidden assumptions being made\n3. What could go wrong\n4. Overlooked alternatives\n5. Uncomfortable truths\n6. Questions that should be answered\n7. Conditions where this decision fails\n8. Better questions to ask\n\nGoal: Strengthen the decision or uncover flaws",
+    "variables": ["decision", "what_decision_was_made", "why_this_decision", "other_options", "decision_makers"],
+    "tags": ["critical thinking", "decision making", "analysis", "strategy"]
+  },
+  {
+    "id": "market-research",
+    "title": "Market research and competitive analysis",
+    "category": "Analysis: Research",
+    "description": "Research market size, trends, and competitors.",
+    "body": "Help me research {{market_or_segment}}.\n\nProduct/service: {{what_youre_selling}}\nTarget market: {{who_is_your_customer}}\nGeography: {{which_markets}}\nCompetitors: {{known_competitors}}\nResearch goals: {{what_you_need_to_know}}\n\nProvide:\n1. Market size (total addressable market)\n2. Growth rate and trends\n3. Customer segments\n4. Competitive landscape\n5. Key competitors (strengths/weaknesses)\n6. Market gaps/opportunities\n7. Barriers to entry\n8. Data sources and confidence levels\n9. Recommendations\n\nInclude sources and confidence levels.",
+    "variables": ["market_or_segment", "what_youre_selling", "who_is_your_customer", "which_markets", "known_competitors", "what_you_need_to_know"],
+    "tags": ["market research", "competitive analysis", "business", "strategy"]
+  },
+  {
+    "id": "scenario-planning",
+    "title": "Scenario planning exercise",
+    "category": "Analysis: Strategic",
+    "description": "Prepare for multiple possible futures.",
+    "body": "Help me create scenarios for {{situation}}.\n\nContext: {{current_state}}\nTime horizon: {{how_far_ahead}}\nKey uncertainties: {{what_could_change}}\nDecision to prepare for: {{what_decision}}\n\nCreate:\n1. Best case scenario\n   - What goes right\n   - Probability estimate\n   - Strategy for this case\n\n2. Base case scenario (most likely)\n   - Current trends continue\n   - Key indicators\n   - Strategy for this case\n\n3. Worst case scenario\n   - What goes wrong\n   - Early warning signs\n   - Contingency plan\n\n4. Wildcard scenario (unexpected)\n   - Something surprising happens\n   - Adaptive strategies\n\nProvide: Early indicators to watch for each",
+    "variables": ["situation", "current_state", "how_far_ahead", "what_could_change", "what_decision"],
+    "tags": ["scenario planning", "strategy", "risk management", "business"]
+  },
+  {
+    "id": "define-problem",
+    "title": "Define a problem precisely",
+    "category": "Analysis: Problem Solving",
+    "description": "Clearly articulate the problem you're solving.",
+    "body": "Help me define {{problem_area}} precisely.\n\nObservation: {{what_you_noticed}}\nWho is affected: {{stakeholders}}\nHow it matters: {{impact_or_urgency}}\nWhat you think the problem is: {{current_hypothesis}}\n\nProvide:\n1. Problem statement (one clear sentence)\n2. Problem scope (how big is it)\n3. Who is affected and how\n4. Root cause hypothesis\n5. Current state vs desired state\n6. Success criteria (how you'd know it's solved)\n7. Constraints on the solution\n8. Questions that need answering\n\nGood problems are:\n- Specific, not vague\n- Important to solve\n- Measurable\n- Clear about impact",
+    "variables": ["problem_area", "what_you_noticed", "stakeholders", "impact_or_urgency", "current_hypothesis"],
+    "tags": ["problem definition", "analysis", "strategy", "critical thinking"]
+  },
+  {
+    "id": "weighted-decision-matrix",
+    "title": "Weighted decision matrix",
+    "category": "Analysis: Decision Making",
+    "description": "Use a scoring system to compare options.",
+    "body": "Help me create a weighted decision matrix for {{decision}}.\n\nOptions: {{options_to_compare}}\nDecision context: {{why_this_matters}}\nCriteria to consider: {{decision_factors}}\nConstraints: {{limitations}}\n\nProvide:\n1. Criteria (what matters)\n2. Weight for each criterion (importance)\n3. Score each option (0-10)\n4. Calculate weighted scores\n5. Sensitivity analysis (what if weights change)\n6. Recommendation\n7. Risks of the chosen option\n8. How to validate the choice\n\nInclude: Explanation of scores and weights",
+    "variables": ["decision", "options_to_compare", "why_this_matters", "decision_factors", "limitations"],
+    "tags": ["decision making", "analysis", "framework", "business"]
+  },
+  {
+    "id": "surface-insights",
+    "title": "Surface insights from data",
+    "category": "Analysis: Data",
+    "description": "Find meaningful patterns and conclusions.",
+    "body": "Help me analyze {{data_type}} and find insights.\n\nData: {{your_data_or_dataset}}\nContext: {{what_the_data_represents}}\nTime period: {{data_timeframe}}\nMetrics available: {{what_you_can_measure}}\nGoal: {{what_you_want_to_learn}}\n\nProvide:\n1. Key statistics (min, max, average, trends)\n2. Notable patterns or anomalies\n3. Segments (different groups in data)\n4. Correlations and relationships\n5. Trends over time\n6. Outliers and unusual cases\n7. Business implications\n8. Recommended actions\n9. Further analysis needed\n\nFocus on: Actionable insights, not just numbers",
+    "variables": ["data_type", "your_data_or_dataset", "what_the_data_represents", "data_timeframe", "what_you_can_measure", "what_you_want_to_learn"],
+    "tags": ["data analysis", "insights", "business intelligence", "analytics"]
+  },
+  {
+    "id": "product-launch",
+    "title": "Product launch announcement",
+    "category": "Content: Marketing",
+    "description": "Write a compelling product launch announcement.",
+    "body": "Help me write a {{format}} for launching {{product_name}}.\n\nProduct: {{what_it_is}}\nTarget audience: {{who_is_it_for}}\nKey benefits: {{main_value}}\nLaunch date: {{when}}\nDistribution channels: {{where_to_announce}}\nCall to action: {{what_you_want_people_to_do}}\n\nInclude:\n1. Hook/attention grabber\n2. Problem it solves\n3. How it's different/better\n4. Key features and benefits\n5. Social proof (if available)\n6. Call to action\n7. How to get it/sign up\n8. Links and resources\n\nTone: {{desired_tone}}\nLength: {{character_or_word_count_limit}}",
+    "variables": ["format", "product_name", "what_it_is", "who_is_it_for", "main_value", "when", "where_to_announce", "what_you_want_people_to_do", "desired_tone"],
+    "tags": ["marketing", "launch", "product", "communication"]
+  },
+  {
+    "id": "ad-copy",
+    "title": "Ad copy for a product",
+    "category": "Content: Marketing",
+    "description": "Create compelling advertising copy.",
+    "body": "Help me write {{ad_type}} ad copy for {{product_name}}.\n\nProduct: {{what_it_is}}\nTarget audience: {{who_you_want_to_reach}}\nMain benefit: {{primary_value}}\nUnique angle: {{what_makes_it_different}}\nCall to action: {{what_you_want_them_to_do}}\nWord/character limit: {{length_constraint}}\n\nInclude:\n1. Attention-grabbing headline\n2. Problem/pain point\n3. Your solution\n4. Key benefit\n5. Proof/credibility (if available)\n6. Call to action\n7. Sense of urgency (if appropriate)\n\nMake it:\n- Specific, not generic\n- Focused on benefit, not features\n- Persuasive but honest\n- Easy to understand\n- Memorable",
+    "variables": ["ad_type", "product_name", "what_it_is", "who_you_want_to_reach", "primary_value", "what_makes_it_different", "what_you_want_them_to_do", "length_constraint"],
+    "tags": ["advertising", "marketing", "copywriting", "sales"]
+  },
+  {
+    "id": "blog-outline",
+    "title": "SEO blog post outline",
+    "category": "Content: Blog",
+    "description": "Create an outline for a search-optimized blog post.",
+    "body": "Help me outline a blog post on {{topic}}.\n\nMain keyword: {{primary_keyword}}\nTarget audience: {{reader_profile}}\nPost goal: {{what_you_want_readers_to_do}}\nSearcher intent: {{why_someone_would_search_this}}\nCompetitor posts: {{existing_content_on_topic}}\n\nProvide:\n1. SEO-friendly title (under 60 characters)\n2. Meta description\n3. Introduction hook\n4. Main sections (H2 headers) with:\n   - Subpoints (H3 headers)\n   - Key takeaways\n5. FAQ section\n6. Conclusion with CTA\n7. Internal/external link opportunities\n8. Target word count\n\nOptimize for:\n- Search intent\n- Readability\n- Keyword placement\n- User engagement",
+    "variables": ["topic", "primary_keyword", "reader_profile", "what_you_want_readers_to_do", "why_someone_would_search_this", "existing_content_on_topic"],
+    "tags": ["seo", "blog", "content", "writing"]
+  },
+  {
+    "id": "landing-page-hero",
+    "title": "Landing page hero section",
+    "category": "Content: Web",
+    "description": "Write the headline and subheading for a landing page.",
+    "body": "Help me write the hero section for {{page_purpose}}.\n\nProduct/service: {{what_youre_promoting}}\nTarget audience: {{who_this_is_for}}\nMain benefit: {{value_proposition}}\nUnique angle: {{what_makes_it_special}}\nCTA: {{what_you_want_them_to_do}}\n\nProvide:\n1. Headline (main benefit in 8-12 words)\n2. Subheading (elaboration, 15-20 words)\n3. Hero CTA button text\n4. Supporting visual description\n5. Why these words work\n\nMake it:\n- Clear (immediately understandable)\n- Specific (not generic)\n- Benefit-focused (not feature-focused)\n- Compelling (creates interest)\n- Action-oriented",
+    "variables": ["page_purpose", "what_youre_promoting", "who_this_is_for", "value_proposition", "what_makes_it_special", "what_you_want_them_to_do"],
+    "tags": ["landing page", "copywriting", "web", "conversion"]
+  },
+  {
+    "id": "case-study",
+    "title": "Customer case study",
+    "category": "Content: Marketing",
+    "description": "Write a customer success case study.",
+    "body": "Help me write a case study for {{customer_name}}.\n\nCompany: {{customer_company}}\nIndustry: {{their_industry}}\nProduct/service used: {{your_product}}\nThe challenge: {{problem_they_faced}}\nThe solution: {{how_you_helped}}\nThe results: {{measurable_outcomes}}\nTime period: {{how_long_it_took}}\n\nStructure:\n1. Client background (company, industry, size)\n2. Challenge/problem (quantify if possible)\n3. Why alternatives didn't work\n4. Your solution and approach\n5. Implementation timeline\n6. Results achieved (with metrics)\n7. Quote from client\n8. Key learnings\n9. Call to action\n\nInclude: Before/after comparison",
+    "variables": ["customer_name", "customer_company", "their_industry", "your_product", "problem_they_faced", "how_you_helped", "measurable_outcomes", "how_long_it_took"],
+    "tags": ["case study", "marketing", "social proof", "content"]
+  },
+  {
+    "id": "newsletter-intro",
+    "title": "Newsletter intro section",
+    "category": "Content: Email",
+    "description": "Write an engaging newsletter opening.",
+    "body": "Help me write the intro section for my newsletter.\n\nIssue topic: {{main_theme}}\nTarget audience: {{newsletter_audience}}\nTone: {{desired_tone}}\nMain message: {{key_point}}\nOptional hook: {{story_or_stat}}\n\nProvide:\n1. Opening line (attention-grabber)\n2. Why this topic matters\n3. What they'll learn/get\n4. Brief teaser of content\n5. Optional P.S. or personal note\n\nMake it:\n- Personal and genuine\n- Relevant to audience\n- Enticing (makes them want to read)\n- Scannable\n- Under 100 words",
+    "variables": ["main_theme", "newsletter_audience", "desired_tone", "key_point", "story_or_stat"],
+    "tags": ["email", "newsletter", "content", "writing"]
+  },
+  {
+    "id": "headlines",
+    "title": "Five headline variations",
+    "category": "Content: Marketing",
+    "description": "Generate multiple headline options.",
+    "body": "Help me create 5 headline variations for {{content_type}}.\n\nContent: {{what_its_for}}\nTarget audience: {{who_youre_reaching}}\nPrimary benefit: {{main_value}}\nUnique angle: {{what_stands_out}}\nStyle preference: {{tone_or_style}}\n\nCreate 5 headlines using different approaches:\n1. Benefit-driven (what they gain)\n2. Problem-focused (what they avoid)\n3. Curiosity/intrigue (unexpected angle)\n4. Number-based (specific metric)\n5. Power word (emotional impact)\n\nFor each:\n- Test with different audiences if possible\n- Consider keyword optimization if for SEO\n- Check character count for platform\n- Ensure clarity (no clickbait)\n\nProvide: Why each works and when to use",
+    "variables": ["content_type", "what_its_for", "who_youre_reaching", "main_value", "what_stands_out", "tone_or_style"],
+    "tags": ["headlines", "copywriting", "marketing", "content"]
+  },
+  {
+    "id": "press-release",
+    "title": "Write a press release",
+    "category": "Content: Marketing",
+    "description": "Create a professional press release.",
+    "body": "Help me write a press release about {{announcement}}.\n\nAnnouncement: {{what_youre_announcing}}\nWho is involved: {{companies_or_people}}\nWhy it matters: {{significance}}\nWhen: {{date_or_timeline}}\nRelevant details: {{key_facts}}\nQuotes available: {{person_to_quote}}\n\nStructure:\n1. Headline (news-style, benefit-focused)\n2. Subheading (elaboration)\n3. Dateline (City, Date)\n4. Opening paragraph (who, what, when, where, why)\n5. Body paragraphs (details, significance)\n6. Quote from key person\n7. Information about companies/people involved\n8. Contact information\n\nMake it:\n- News-worthy and factual\n- Professional tone\n- Clear value to readers\n- Under 400 words\n- Include one quote minimum",
+    "variables": ["announcement", "what_youre_announcing", "companies_or_people", "significance", "date_or_timeline", "key_facts", "person_to_quote"],
+    "tags": ["press release", "pr", "marketing", "communication"]
+  },
+  {
+    "id": "brand-voice",
+    "title": "Brand voice and tone guide",
+    "category": "Content: Strategy",
+    "description": "Define your brand's communication style.",
+    "body": "Help me create a brand voice and tone guide for {{company_name}}.\n\nBrand: {{brand_description}}\nAudience: {{target_customer_profile}}\nIndustry: {{market_context}}\nCompetitors: {{competitive_positioning}}\n\nDefine:\n1. Brand personality (3-5 traits)\n   - Give examples of how each shows\n2. Voice (consistent way of speaking)\n   - Vocabulary and phrases\n   - Grammar choices\n   - Do's and don'ts\n3. Tone variations (how it changes by context)\n   - Friendly vs professional\n   - Casual vs formal\n   - Serious vs playful\n4. Example phrases showing voice\n5. What to avoid\n6. How to write for different channels\n\nProvide: Examples of good and bad communication",
+    "variables": ["company_name", "brand_description", "target_customer_profile", "market_context", "competitive_positioning"],
+    "tags": ["branding", "content strategy", "writing", "marketing"]
+  },
+  {
+    "id": "repurpose-content",
+    "title": "Repurpose content across formats",
+    "category": "Content: Strategy",
+    "description": "Turn one piece of content into multiple formats.",
+    "body": "Help me repurpose {{original_format}} into multiple formats.\n\nOriginal content: {{original_piece}}\nOriginal audience: {{who_it_was_for}}\nCore message: {{main_idea}}\nKey points: {{important_takeaways}}\n\nCreate versions for:\n1. Short-form social (tweets, LinkedIn)\n2. Infographic or visual\n3. Email/newsletter excerpt\n4. Podcast/audio script\n5. Video script outline\n6. SlideShare presentation\n7. Quote graphics\n8. Summary/cheat sheet\n\nFor each:\n- Adapt to platform requirements\n- Match audience expectations\n- Keep core message\n- Optimize for platform engagement\n\nInclude: Distribution timeline",
+    "variables": ["original_format", "original_piece", "who_it_was_for", "main_idea", "important_takeaways"],
+    "tags": ["content repurposing", "marketing", "content strategy", "efficiency"]
+  },
+  {
+    "id": "social-posts",
+    "title": "Social posts from blog content",
+    "category": "Content: Social Media",
+    "description": "Create social media posts from a blog article.",
+    "body": "Help me create social media posts for my {{blog_title}} article.\n\nBlog article: {{article_link_or_content}}\nMain topic: {{article_topic}}\nKey takeaway: {{most_important_point}}\nTarget audience: {{social_audience}}\nPlatforms: {{where_youll_post}}\n\nCreate posts for:\n1. LinkedIn (professional angle)\n2. Twitter/X (punchy, shareable)\n3. Instagram (visual angle)\n4. Facebook (community engagement)\n5. TikTok (trending audio, hook)\n\nFor each:\n- Optimize for platform\n- Include relevant hashtags\n- Add call-to-action\n- Vary the angle/framing\n- Include emoji where appropriate\n- Link to article or resource\n\nProvide: Posting suggestions and timing",
+    "variables": ["blog_title", "article_link_or_content", "article_topic", "most_important_point", "social_audience", "where_youll_post"],
+    "tags": ["social media", "content marketing", "promotion", "writing"]
+  },
+  {
+    "id": "youtube-description",
+    "title": "YouTube video description",
+    "category": "Content: Video",
+    "description": "Write a description that drives views and clicks.",
+    "body": "Help me write a YouTube description for {{video_title}}.\n\nVideo: {{what_the_video_is}}\nTopic: {{main_subject}}\nTarget viewer: {{who_should_watch}}\nKey benefit: {{what_they_learn}}\nVideo length: {{duration}}\nPlaylist/series: {{if_part_of_series}}\n\nInclude:\n1. Hook (first 2-3 lines visible without expanding)\n   - What the video is about\n   - Why they should watch\n2. Timestamp markers (if long video)\n3. Links:\n   - Your website\n   - Related videos\n   - Social media\n   - Products mentioned\n4. Call-to-action (like, subscribe, comment)\n5. Hashtags (3-5 relevant)\n6. Keywords for SEO\n\nMake it:\n- Scannable (short paragraphs)\n- Link-rich (where relevant)\n- Action-oriented (clear CTA)",
+    "variables": ["video_title", "what_the_video_is", "main_subject", "who_should_watch", "what_they_learn", "duration", "if_part_of_series"],
+    "tags": ["youtube", "video", "description", "content"]
+  },
+  {
+    "id": "subject-lines",
+    "title": "Email subject line split test",
+    "category": "Content: Email",
+    "description": "Create subject line variations to test.",
+    "body": "Help me create subject line variations for {{email_type}}.\n\nEmail purpose: {{what_youre_promoting}}\nTarget audience: {{who_is_getting_it}}\nKey benefit: {{main_value}}\nUrgency level: {{how_time_sensitive}}\n\nCreate 5 variations testing different approaches:\n1. Curiosity (intriguing, makes them open)\n2. Benefit-focused (clear value)\n3. Urgency/FOMO (limited time or exclusive)\n4. Personalization (name or preference)\n5. Question (engages reader)\n\nFor each:\n- Keep under 50 characters (mobile)\n- Avoid spam words\n- Make first 3 words compelling\n- Test A/B with similar audiences\n- Track open rate as metric\n\nProvide: Recommendation on which to test first",
+    "variables": ["email_type", "what_youre_promoting", "who_is_getting_it", "main_value", "how_time_sensitive"],
+    "tags": ["email", "subject line", "marketing", "testing"]
+  },
+  {
+    "id": "content-calendar",
+    "title": "Content calendar planning",
+    "category": "Content: Strategy",
+    "description": "Plan your content across channels and platforms.",
+    "body": "Help me plan a content calendar for {{timeframe}}.\n\nBusiness: {{your_company}}\nGoals: {{content_goals}}\nAudience: {{target_audience}}\nChannels: {{where_you_publish}}\nTeam capacity: {{how_much_you_can_produce}}\n\nCreate:\n1. Content themes by month\n2. Weekly posting schedule\n3. Content types per channel:\n   - Blog posts\n   - Social media posts\n   - Email newsletters\n   - Videos/podcasts\n4. Posting frequency for each channel\n5. Promotion strategy\n6. Metrics to track\n7. Content production timeline\n8. Responsible parties\n\nInclude:\n- Important dates/events\n- Product launches\n- Industry holidays/awareness months\n- Campaign calendar",
+    "variables": ["timeframe", "your_company", "content_goals", "target_audience", "where_you_publish", "how_much_you_can_produce"],
+    "tags": ["content planning", "calendar", "strategy", "organization"]
+  },
+  {
+    "id": "positioning-statement",
+    "title": "Product positioning statement",
+    "category": "Content: Strategy",
+    "description": "Craft a clear market positioning.",
+    "body": "Help me write a positioning statement for {{product_name}}.\n\nProduct: {{what_it_is}}\nTarget market: {{primary_customer}}\nKey benefit: {{main_value}}\nDifferentiator: {{what_makes_unique}}\nCompetitors: {{who_you_compete_with}}\n\nStructure:\n\"For [target customer] who [customer need], {{product_name}} is a [category] that [key benefit]. Unlike [competitor], we [unique value].\"\n\nProvide:\n1. Clear positioning statement\n2. Supporting proof points\n3. Brand messaging architecture\n4. How to communicate each part\n5. Visual/verbal elements\n6. How it differs from competitors\n\nMake sure:\n- Clear and specific\n- Differentiating (not generic)\n- Benefit-focused\n- Memorable\n- Credible",
+    "variables": ["product_name", "what_it_is", "primary_customer", "main_value", "what_makes_unique", "who_you_compete_with"],
+    "tags": ["positioning", "strategy", "marketing", "brand"]
+  },
+  {
+    "id": "value-prop-canvas",
+    "title": "Value proposition canvas",
+    "category": "Analysis: Strategic",
+    "description": "Map customer jobs, pains, and gains.",
+    "body": "Help me complete a value proposition canvas for {{product_name}}.\n\nProduct: {{what_you_offer}}\nCustomer segment: {{primary_customer}}\n\nCustomer Profile:\n1. Jobs to be done\n   - Functional jobs (what they want to accomplish)\n   - Emotional jobs (how they want to feel)\n   - Social jobs (how they want to be seen)\n2. Pains\n   - Major pain points they face\n   - Severity and frequency\n3. Gains\n   - Desired outcomes\n   - Success measures\n\nValue Map:\n1. Products/services offered\n2. Pain relievers\n   - How you reduce pain\n3. Gain creators\n   - How you create gains\n\nProvide: Gap analysis and recommendations",
+    "variables": ["product_name", "what_you_offer", "primary_customer"],
+    "tags": ["value proposition", "strategy", "product", "analysis"]
+  },
+  {
+    "id": "launch-checklist",
+    "title": "Product or feature launch checklist",
+    "category": "Planning: Launch",
+    "description": "Comprehensive checklist for launching.",
+    "body": "Help me create a launch checklist for {{product_or_feature}}.\n\nProduct: {{what_youre_launching}}\nTarget audience: {{primary_users}}\nLaunch date: {{when}}\nTeam: {{who_is_involved}}\nResources: {{budget_and_constraints}}\n\nCreate checklist for:\n1. Pre-launch (2-4 weeks before)\n   - Product readiness\n   - Marketing collateral\n   - Support preparation\n   - Team alignment\n\n2. Launch day\n   - Go-live checklist\n   - Monitoring\n   - Communications\n\n3. Post-launch (first week)\n   - Customer support\n   - Issue tracking\n   - Metrics tracking\n   - User feedback collection\n\n4. Follow-up (first month)\n   - Performance analysis\n   - Refinements\n   - Next features\n\nFor each: Owner, deadline, status",
+    "variables": ["product_or_feature", "what_youre_launching", "primary_users", "when", "who_is_involved", "budget_and_constraints"],
+    "tags": ["launch", "project management", "product", "planning"]
+  },
+  {
+    "id": "objection-handling",
+    "title": "Sales objection handling guide",
+    "category": "Sales: Techniques",
+    "description": "Prepare responses to common sales objections.",
+    "body": "Help me create an objection handling guide for {{product_or_service}}.\n\nProduct: {{what_youre_selling}}\nTarget customer: {{who_buys}}\nPrice point: {{cost}}\nCommon objections: {{what_people_say}}\n\nFor each common objection:\n1. Acknowledge and validate\n2. Clarify what they mean\n3. Provide perspective\n4. Address underlying concern\n5. Present your solution\n6. Move forward\n\nCommon objections to address:\n- \"It's too expensive\"\n- \"I need to think about it\"\n- \"I don't have time\"\n- \"We use something else\"\n- \"I'm not sure if it will work\"\n- \"Your competitor is cheaper\"\n\nFor each:\n- Root cause of objection\n- Best response (empathetic, not defensive)\n- Supporting evidence/examples\n- How to close after response",
+    "variables": ["product_or_service", "what_youre_selling", "who_buys", "cost", "what_people_say"],
+    "tags": ["sales", "objections", "technique", "communication"]
+  },
+  {
+    "id": "trend-analysis",
+    "title": "Trend analysis and implications",
+    "category": "Analysis: Research",
+    "description": "Analyze trends and their strategic implications.",
+    "body": "Help me analyze {{trend}} and its implications.\n\nTrend: {{what_is_trending}}\nIndustry: {{your_industry}}\nTime horizon: {{trend_timeframe}}\nEvidence: {{data_points_or_signals}}\nWho is affected: {{stakeholders}}\n\nAnalyze:\n1. Trend confirmation\n   - Is this real or hype?\n   - Data supporting it\n2. Trajectory\n   - Will it accelerate or fade?\n   - Timeline\n3. Drivers\n   - What's causing the trend?\n4. Implications for your business\n   - Opportunities\n   - Threats\n   - Required changes\n5. Response strategies\n   - How to capitalize\n   - How to protect against threats\n6. Early indicators to watch\n\nProvide: Confidence level and key uncertainties",
+    "variables": ["trend", "what_is_trending", "your_industry", "trend_timeframe", "data_points_or_signals", "stakeholders"],
+    "tags": ["trend analysis", "strategy", "research", "business"]
+  },
+  {
+    "id": "retrospective",
+    "title": "Lessons learned retrospective",
+    "category": "Analysis: Learning",
+    "description": "Capture learnings from a project or period.",
+    "body": "Help me run a retrospective for {{project_or_period}}.\n\nProject: {{what_you_completed}}\nTimeline: {{when_it_happened}}\nTeam: {{who_was_involved}}\nOutcome: {{results}}\n\nStructure:\n1. What went well?\n   - Successes to celebrate\n   - What enabled them\n\n2. What didn't go well?\n   - Challenges faced\n   - Root causes\n\n3. What did we learn?\n   - Insights gained\n   - New knowledge\n\n4. What will we do differently?\n   - Specific improvements\n   - Who owns them\n   - By when\n\n5. What should we keep doing?\n   - Practices that worked\n   - How to reinforce\n\nProvide:\n- Action items for next time\n- Celebration of wins\n- Psychological safety in feedback",
+    "variables": ["project_or_period", "what_you_completed", "when_it_happened", "who_was_involved", "results"],
+    "tags": ["retrospective", "learning", "improvement", "reflection"]
+  }
+]
+
