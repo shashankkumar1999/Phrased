@@ -12,7 +12,6 @@ Phrased stores them for you - 92 templates across writing, coding, career, analy
 
 Works on:
 - **Claude** ✅
-- **ChatGPT** ✅
 - **Gemini** ✅
 - **Perplexity** ✅
 - **Any website** (copy-paste mode)
