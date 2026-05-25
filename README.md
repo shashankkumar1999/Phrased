@@ -4,7 +4,6 @@
 
 A sleek, dark-themed prompt template library for Claude, Gemini, and Perplexity. **92 expert-crafted prompts** with fill-in-the-blank variables. Inject directly into any AI chat—no copy-paste busywork.
 
-**[Install from Chrome Web Store](#installation)** • **[See a Demo](#demo)** • **[Open an Issue](#support)**
 
 ## Why Phrased?
 
