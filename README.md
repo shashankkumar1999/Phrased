@@ -19,6 +19,20 @@ Works on:
 
 ---
 
+## How Variables Work
+
+Every prompt has `{{placeholders}}` that become inputs before you send:
+
+```
+Write a cold email to a {{recipient_role}} at {{company}}. 
+Their pain point: {{pain_point}}
+My ask: {{call_to_action}}
+```
+
+Fill in your specifics → live preview updates → inject with one click.
+
+---
+
 ## Features
 
 - **92 prompts** organized by category
@@ -33,7 +47,7 @@ Works on:
 ## Installation
 
 ### From Chrome Web Store
-[Add to Chrome](https://chrome.webstore.google.com/detail/phrased-ai-prompts-made-easier) (live now)
+Coming soon to Chrome Web Store
 
 ### From Source
 
