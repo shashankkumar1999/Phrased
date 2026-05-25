@@ -8,7 +8,7 @@ A Chrome extension that injects 92 AI prompts directly into Claude, ChatGPT, Gem
 
 You write the same prompts over and over. Claude for code, ChatGPT for brainstorming, Gemini for research. Same prompts. Different tabs.
 
-Phrased stores them for you—92 templates across writing, coding, career, analysis, and marketing. Fill in your variables, click inject, done.
+Phrased stores them for you - 92 templates across writing, coding, career, analysis, and marketing. Fill in your variables, click inject, done.
 
 Works on:
 - **Claude** ✅
@@ -33,7 +33,7 @@ Works on:
 ## Installation
 
 ### From Chrome Web Store
-[Add to Chrome](https://chrome.webstore.google.com/detail/phrased-ai-prompts-made-easier) (live now)
+[Add to Chrome](https://chrome.webstore.google.com/detail/phrased-ai-prompts-made-easier) (live soon)
 
 ### From Source
 
